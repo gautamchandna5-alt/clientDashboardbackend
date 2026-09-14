@@ -1,0 +1,29 @@
+{
+  "name": "clientdashboard",
+  "version": "1.0.0",
+  "description": "A fullstack crud app with RBAC ",
+  "homepage": "https://github.com/gautamchandna5-alt/clientDashboard#readme",
+  "bugs": {
+    "url": "https://github.com/gautamchandna5-alt/clientDashboard/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gautamchandna5-alt/clientDashboard.git"
+  },
+  "license": "ISC",
+  "author": "Gautam",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./backend/server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.23.0"
+  }
+}
