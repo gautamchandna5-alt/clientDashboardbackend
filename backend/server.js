@@ -22,7 +22,7 @@ const app = express();
 //fronted access
 
 app.use(cors({
-    origin: 'https://client-dashboard-frontend-six.vercel.app/', 
+    origin: 'client-dashboard-frontend-33yx1qpfe-pspspsps.vercel.app', 
     credentials: true 
 }));
 
